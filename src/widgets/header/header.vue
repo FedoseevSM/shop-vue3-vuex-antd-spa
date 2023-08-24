@@ -43,7 +43,7 @@ import { NavigationHeader } from "./index.js"
 }
 
 .header__inner {
-  background: url(images/8868db50dfed9a610c386219a40e264d.png) center center/cover no-repeat #F9F9F9;
+  background: url(../images/8868db50dfed9a610c386219a40e264d.png) center center/cover no-repeat #F9F9F9;
   height: 100%;
   display: flex;
   flex-direction: column;
