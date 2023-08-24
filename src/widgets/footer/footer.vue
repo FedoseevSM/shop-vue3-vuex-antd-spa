@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <div>А тут будет футер</div>
+  <div></div>
 </template>

@@ -21,7 +21,7 @@ export const itemsStore = {
       state.itemsFiltered = state.items
         .filter((item) => {
           if (!state.filters.news) return true;
-          return item.status !== 1;
+          return item.status == 1;
         })
         .filter((item) => {
           if (!state.filters.search) return true;
@@ -41,7 +41,7 @@ export const itemsStore = {
       this.commit("itemsStore/UPDATE_FILTERS");
     },
     ADD_CART(state, payload) {
-      if (!state.cart.includes(payload)) {
+      if (!state.cart.includes(payload) && state.cart.length < 300) {
         state.cart.push(payload);
       }
     },
