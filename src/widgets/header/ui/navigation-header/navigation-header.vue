@@ -163,14 +163,12 @@
 .navigation__inner-left {
     width: 100%;
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
 }
 
 .navigation__inner-right {
-    width: 50%;
+    width: 60%;
     display: flex;
-    /* align-items: center; */
     justify-content: end;
     gap: 60px
 }
