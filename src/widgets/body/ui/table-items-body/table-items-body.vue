@@ -17,7 +17,7 @@ const columns = [
     title: "Акция",
     key: "image",
     dataIndex: "image",
-    width: 200,
+    minWidth: 200,
   },
   {
     title: "Артикул",
@@ -26,7 +26,7 @@ const columns = [
     sorter: {
       compare: (a, b) => a.title.localeCompare(b.title),
     },
-    width: 400,
+    minWidth: 400,
   },
   {
     title: "Дата обновления",
@@ -36,7 +36,7 @@ const columns = [
       compare: (a, b) => a.modified - b.modified,
     },
     defaultSortOrder: "descend",
-    width: 200,
+    minWidth: 200,
   },
   {
     title: "Статус",
@@ -45,7 +45,7 @@ const columns = [
     sorter: {
       compare: (a, b) => a.status - b.status,
     },
-    width: 200,
+    minWidth: 200,
   },
   {
     key: "action",
