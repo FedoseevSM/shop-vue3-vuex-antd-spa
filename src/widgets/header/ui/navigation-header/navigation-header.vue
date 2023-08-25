@@ -158,18 +158,21 @@
 .navigation__links {
     display: flex;
     gap: 16px;
+    flex-shrink: 0;
 }
 
 .navigation__inner-left {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    height: 20px;
 }
 
 .navigation__inner-right {
     width: 60%;
     display: flex;
     justify-content: end;
-    gap: 60px
+    gap: 20px;
+    height: 20px;
 }
 </style>
